@@ -6,10 +6,10 @@ SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
 
 # Укажите реальные Slack Member ID в формате "<@ID>" (как их найти — в Шаге 3)
 TEAM_MEMBERS = [
-    "@U0AETCD18CD",
-    "@U03U1D7D1NG",
-    "@U076AJKLG5S",
-    "@U0B4Y4GH9RB"
+    "<@U0AETCD18CD>",
+    "<@U03U1D7D1NG>",
+    "<@U076AJKLG5S>",
+    "<@U0B4Y4GH9RB>"
 ]
 
 RAW_CASES = {
